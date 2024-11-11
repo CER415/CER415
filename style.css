@@ -1,0 +1,51 @@
+.container {
+  color: gray;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+}
+.siteheader {
+  color: rgb(245,242,236);
+  background-color: rgb(80 102 80);
+  padding: 15px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: rgb(80 102 80);
+}
+a:link {
+  color: rgb(213 214 197);
+}
+a:visited {
+  color: rgb(213 214 197);
+}
+a:active {
+  color: rgb(208,199,182);
+}
+.text {
+  color: rgb(213 214 197);
+}
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+li {
+  list-style-type: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin: 10px;
+}
+.thumbnail {
+  width: 100px;
+}
+.image {
+  width: 400px;
+}
